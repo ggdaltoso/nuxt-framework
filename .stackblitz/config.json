@@ -1,3 +1,4 @@
 {
-  "startCommand": "pnpm build:stub && pnpm play"
+  "startCommand": "pnpm build:stub && pnpm play",
+  "publisherStartCommand": "pnpm build:stub && cd docs && yarn install && yarn dev"
 }
